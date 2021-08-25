@@ -1,9 +1,19 @@
 <template>
   <section>
-    <header><h1>My Friends</h1></header>
+    <header>
+      <h1>My Friends</h1>
+    </header>
     <ul>
-      <friend-contact name="Manuel Lorenz" phone-number="01234 56789" email-address="manuel@localhost.com"></friend-contact>
-      <friend-contact name="Julie Jones" phone-number="0987 654421 21"email-address="manuel@localhost.com"></friend-contact>
+      <friend-contact
+        name="Manuel Lorenz"
+        phone-number="01234 56789"
+        email-address="manuel@localhost.com"
+      ></friend-contact>
+      <friend-contact
+        name="Julie Jones"
+        phone-number="0987 654421 21"
+        email-address="manuel@localhost.com"
+      ></friend-contact>
     </ul>
   </section>
 </template>
@@ -30,13 +40,14 @@ export default {
   },
 };
 </script>
+
 <style>
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
 }
 
 body {
@@ -94,5 +105,4 @@ header {
   border-color: #ec3169;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
 }
-
 </style>
